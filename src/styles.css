@@ -264,7 +264,21 @@ body {
 
 .mt-carousel {
   background: url("./assets/img/carousel/beef-bokeh-bottle-750073.jpg");
-  background-size: cover;  // or cover like Ben Dyer states
+  background-size: cover; 
   background-repeat: no-repeat;
   background-position: center;
+}
+
+.search-link{
+  cursor: pointer;
+  color: #555;
+}
+
+.search-link:hover{
+  color: #dd4b39;
+}
+
+.search-bar{
+  opacity: 0;
+  max-height: 0px
 }
